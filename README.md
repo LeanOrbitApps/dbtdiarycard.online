@@ -3,6 +3,7 @@
 Marketing site for **DBT Diary Card: Skills Tracker** (Lean Orbit LLC), served by GitHub Pages at https://dbtdiarycard.online/.
 
 - `index.html` is the free online DBT diary card: a self-contained page whose CSS and JS are inline, plus `site.css`.
+- `printable-dbt-diary-card/` is the printable blank card page, with Letter and A4 PDFs. The PDFs and preview PNG are generated from `index.html`'s own print layout (Print blank card with default rows), so regenerate them if the default rows or print CSS change.
 - `site.css` is a copy of `leanorbit.app/dbtdailydiary/site.css`, the shared look of the DBT pages.
 - `CNAME` tells GitHub Pages which domain to serve. Don't delete it.
 
