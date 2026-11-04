@@ -4,10 +4,10 @@
 <meta name="description" content="Fill in a DBT diary card online for free. Track emotions, urges, target behaviors and 30 DBT skills, save in your browser, then print or save a PDF. No sign-up.">
 <link rel="canonical" href="https://dbtdiarycard.online/"><meta name="theme-color" content="#153d35">
 <meta property="og:type" content="website"><meta property="og:site_name" content="DBT Diary Card: Skills Tracker">
-<meta property="og:title" content="Free Online DBT Diary Card: Fillable, Printable, Private"><meta property="og:description" content="Track emotions, urges, target behaviors and DBT skills for the week. No sign-up. Entries stay in your browser. Print or save a PDF for your session.">
+<meta property="og:title" content="Free Online DBT Diary Card: Fillable, Printable, Private"><meta property="og:description" content="Track emotions, urges, target behaviors and DBT skills for the week. No sign-up. Entries stay on your device. Print or save a PDF for your session.">
 <meta property="og:url" content="https://dbtdiarycard.online/">
 <meta property="og:image" content="https://dbtdiarycard.online/og-online-dbt-diary-card.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="A weekly DBT diary card filled in online, with emotion ratings shaded by intensity">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Free Online DBT Diary Card: Fillable, Printable, Private"><meta name="twitter:description" content="Track emotions, urges, target behaviors and DBT skills for the week. No sign-up. Entries stay in your browser."><meta name="twitter:image" content="https://dbtdiarycard.online/og-online-dbt-diary-card.png">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Free Online DBT Diary Card: Fillable, Printable, Private"><meta name="twitter:description" content="Track emotions, urges, target behaviors and DBT skills for the week. No sign-up. Entries stay on your device."><meta name="twitter:image" content="https://dbtdiarycard.online/og-online-dbt-diary-card.png">
 <link rel="icon" href="icon.png" type="image/png"><link rel="apple-touch-icon" href="icon.png"><link rel="stylesheet" href="site.css">
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[
 {"@type":"WebSite","@id":"https://dbtdiarycard.online/#website","url":"https://dbtdiarycard.online/","name":"DBT Diary Card","alternateName":["dbtdiarycard.online","Free Online DBT Diary Card"],"inLanguage":"en","publisher":{"@id":"https://dbtdiarycard.online/#org"}},
@@ -16,7 +16,7 @@
 {"@type":"WebApplication","@id":"https://dbtdiarycard.online/#app","name":"Free Online DBT Diary Card","url":"https://dbtdiarycard.online/","description":"A free, fillable weekly DBT diary card that runs in the browser. Track emotions, urges, target behaviors and DBT skills, keep entries in your browser, and print or save a PDF.","applicationCategory":"HealthApplication","operatingSystem":"Any (web browser)","browserRequirements":"Requires JavaScript","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"featureList":["Weekly diary card grid","Emotion and urge ratings from 0 to 5","Target behavior tracking","30 DBT skills across four modules","Skills-use rating from 0 to 7","Daily notes","Customizable rows","Print or save as PDF","Blank printable card","CSV export","Entries stored only in the browser"],"isPartOf":{"@id":"https://dbtdiarycard.online/#website"},"publisher":{"@id":"https://dbtdiarycard.online/#org"}},
 {"@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"Is this online DBT diary card free?","acceptedAnswer":{"@type":"Answer","text":"Yes. The card is free to use in your browser with no account, no sign-up and no ads."}},
-{"@type":"Question","name":"Where are my diary card entries saved?","acceptedAnswer":{"@type":"Answer","text":"Entries are saved in your browser's local storage on this device. They are not sent to Lean Orbit. Clearing browsing data, using a private window, or switching browsers or devices means they will not be there, so download a backup if you want a copy."}},
+{"@type":"Question","name":"Where are my diary card entries saved?","acceptedAnswer":{"@type":"Answer","text":"Entries are saved only on this device, inside the web browser you're using. They are not sent to Lean Orbit or anyone else. Clearing browsing data, using a private window, or switching browsers or devices means they will not be there, so download a backup if you want a copy."}},
 {"@type":"Question","name":"Can I print a blank DBT diary card?","acceptedAnswer":{"@type":"Answer","text":"Yes. Use Print blank card. It prints the rows you have set up with empty cells, so you can customize the emotions, urges and behaviors first. A standard blank card is also available as a free PDF in US Letter or A4."}},
 {"@type":"Question","name":"How do I save my diary card as a PDF?","acceptedAnswer":{"@type":"Answer","text":"Select Print / Save PDF, then choose Save as PDF as the destination in your browser's print dialog. The card prints on one landscape page where possible."}},
 {"@type":"Question","name":"What do the 0 to 5 and 0 to 7 scales mean?","acceptedAnswer":{"@type":"Answer","text":"Emotions and urges are rated from 0 (none) to 5 (most intense). The skills-use rating from 0 to 7 records whether you thought about skills, tried them, and whether they helped. Use the definitions your therapist gives you if they differ."}},
@@ -165,8 +165,8 @@ noscript p{background:#fbf1e4;padding:16px;border-radius:8px}
 <section class="wrap dc-hero">
 <p class="eyebrow">Free · No sign-up · Works in your browser</p>
 <h1>Free online <em>DBT diary card.</em></h1>
-<p class="lead">Track emotions, urges, target behaviors and DBT skills for the week. Entries stay in this browser. Print it, or save a PDF for your next session.</p>
-<ul class="trust-list"><li>No account</li><li>Saved in your browser, not on a server</li><li>Print or save as PDF</li><li>Customizable rows</li></ul>
+<p class="lead">Track emotions, urges, target behaviors and DBT skills for the week. Entries stay on your device. Print it, or save a PDF for your next session.</p>
+<ul class="trust-list"><li>No account</li><li>Private: stays on your device</li><li>Print or save as PDF</li><li>Customizable rows</li></ul>
 </section>
 
 <section class="wrap" aria-label="Diary card">
@@ -180,8 +180,8 @@ noscript p{background:#fbf1e4;padding:16px;border-radius:8px}
     <button class="dc-btn" type="button" data-act="today">This week</button>
   </div>
   <div class="dc-toggle" role="group" aria-label="Card layout">
-    <button type="button" data-view="grid" aria-pressed="true">Week grid</button>
-    <button type="button" data-view="day" aria-pressed="false">One day</button>
+    <button type="button" data-view="day" aria-pressed="true">One day</button>
+    <button type="button" data-view="grid" aria-pressed="false">Week grid</button>
   </div>
 </div>
 <div class="dc-meta">
@@ -201,11 +201,11 @@ noscript p{background:#fbf1e4;padding:16px;border-radius:8px}
   <button class="dc-btn" type="button" data-act="printblank">Print blank card</button>
   <button class="dc-btn" type="button" data-act="csv">Download CSV</button>
   <span class="spacer"></span>
-  <span class="dc-status" id="dc-status">Entries save in this browser as you type.</span>
+  <span class="dc-status" id="dc-status">Entries save on this device as you type.</span>
 </div>
 <details class="dc-panel" id="dc-custpanel"><summary>Customize rows</summary><div class="dc-panel-body" id="dc-cust"></div></details>
 <details class="dc-panel"><summary>Your data: backup, restore, clear</summary><div class="dc-panel-body"><div class="dc-data">
-  <p>Your card is stored in this browser's local storage on this device. Private windows, clearing site data, or switching browsers will remove it. Download a backup to keep a copy.</p>
+  <p>Your card is saved only on this device, inside this web browser. You won't see it in a private window or a different browser, and clearing your browsing history can erase it. Download a backup to keep a copy.</p>
   <button class="dc-btn" type="button" data-act="backup">Download backup (all weeks)</button>
   <label class="dc-btn" for="dc-restore">Restore from backup</label><input id="dc-restore" type="file" accept="application/json,.json" class="sr-only">
   <button class="dc-btn danger" type="button" data-act="clearweek">Clear this week</button>
@@ -279,7 +279,7 @@ noscript p{background:#fbf1e4;padding:16px;border-radius:8px}
 <tbody>
 <tr><th scope="row">Cost</th><td>Free</td><td>Free</td><td>Free download, paid full access</td></tr>
 <tr><th scope="row">Account needed</th><td>No</td><td>No</td><td>No</td></tr>
-<tr><th scope="row">Where entries live</th><td>On the paper</td><td>In this browser on this device</td><td>On your iPhone or iPad</td></tr>
+<tr><th scope="row">Where entries live</th><td>On the paper</td><td>On this device only</td><td>On your iPhone or iPad</td></tr>
 <tr><th scope="row">Daily reminders</th><td>No</td><td>No</td><td>Yes</td></tr>
 <tr><th scope="row">Lock with Face ID</th><td>No</td><td>No</td><td>Yes, optional</td></tr>
 <tr><th scope="row">Weekly charts</th><td>No</td><td>Weekly averages</td><td>Yes</td></tr>
@@ -291,7 +291,7 @@ noscript p{background:#fbf1e4;padding:16px;border-radius:8px}
 <section class="section section-tint dc-content" id="privacy"><div class="wrap narrow prose">
 <p class="eyebrow">Privacy</p>
 <h2>Your entries stay in your browser</h2>
-<p>This page has no sign-in, no analytics and no server-side storage. What you type is saved with your browser's local storage on the device you are using, and it never leaves that device unless you print, export or share it yourself.</p>
+<p>This page has no sign-in, no analytics and no server-side storage. What you type is saved only on the device you're using, inside your web browser (such as Safari or Chrome). It isn't uploaded anywhere and never leaves that device unless you print, export or share it yourself.</p>
 <p>That also means a few practical limits. Your card won't follow you to another browser or device. If you use a private or incognito window, it is deleted when you close the window. Clearing your browser's site data deletes it too. Use <em>Download backup</em> if you want to keep a copy, and avoid filling it in on a shared or public computer.</p>
 </div></section>
 
@@ -300,7 +300,7 @@ noscript p{background:#fbf1e4;padding:16px;border-radius:8px}
 <h2>Frequently asked questions</h2>
 <div class="faq-list">
 <details><summary>Is this online DBT diary card free?</summary><div class="answer"><p>Yes. The card is free to use in your browser with no account, no sign-up and no ads.</p></div></details>
-<details><summary>Where are my diary card entries saved?</summary><div class="answer"><p>In your browser's local storage on this device. They are not sent to Lean Orbit. Clearing browsing data, using a private window, or switching browsers or devices means they will not be there, so download a backup if you want a copy.</p></div></details>
+<details><summary>Where are my diary card entries saved?</summary><div class="answer"><p>Only on this device, inside the web browser you're using (such as Safari or Chrome). They are not sent to Lean Orbit or anyone else. Clearing browsing data, using a private window, or switching browsers or devices means they will not be there, so download a backup if you want a copy.</p></div></details>
 <details><summary>Can I print a blank DBT diary card?</summary><div class="answer"><p>Yes. Use <em>Print blank card</em>. It prints the rows you have set up with empty cells, so customize the emotions, urges and behaviors first if you want your own version. Or download the standard <a href="/printable-dbt-diary-card/">printable DBT diary card PDF</a>.</p></div></details>
 <details><summary>How do I save my diary card as a PDF?</summary><div class="answer"><p>Select <em>Print / Save PDF</em>, then choose <em>Save as PDF</em> as the destination in your browser's print dialog. On iPhone, open the print preview and use the share button to save the PDF to Files.</p></div></details>
 <details><summary>What do the 0–5 and 0–7 scales mean?</summary><div class="answer"><p>Emotions and urges are rated from 0 (none) to 5 (most intense). The 0–7 skills-use rating records whether you thought about skills, tried them, and whether they helped. <a href="#whats-on-the-card">See both scales</a>. Use your therapist's definitions if they differ.</p></div></details>
@@ -348,8 +348,8 @@ var C=S.cfg;
 
 var $=function(id){return document.getElementById(id);};
 var root=$('dc-root'), viewEl=$('dc-view');
-var view='grid';
-try{var sv=localStorage.getItem(VIEWKEY); if(sv==='grid'||sv==='day') view=sv; else if(window.matchMedia('(max-width: 760px)').matches) view='day';}catch(e){ if(window.innerWidth<760) view='day'; }
+var view='day';
+try{var sv=localStorage.getItem(VIEWKEY); if(sv==='grid'||sv==='day') view=sv;}catch(e){}
 
 function pad(n){return (n<10?'0':'')+n;}
 function dkey(d){return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());}
@@ -379,7 +379,7 @@ function wmeta(){var w=S.weeks[keys[0]]; return w||{};}
 
 // ---- persistence
 var saveT=null, statusEl=$('dc-status');
-function persist(){try{localStorage.setItem(KEY,JSON.stringify(S)); storeOK=true; var t=new Date(); statusEl.textContent='Saved in this browser · '+t.toLocaleTimeString([], {hour:'numeric',minute:'2-digit'}); statusEl.classList.remove('bad');}catch(e){storeOK=false; statusEl.textContent='Your browser is blocking storage, so entries won’t be kept. Print or download a CSV before closing.'; statusEl.classList.add('bad');}}
+function persist(){try{localStorage.setItem(KEY,JSON.stringify(S)); storeOK=true; var t=new Date(); statusEl.textContent='Saved on this device · '+t.toLocaleTimeString([], {hour:'numeric',minute:'2-digit'}); statusEl.classList.remove('bad');}catch(e){storeOK=false; statusEl.textContent='Your browser is blocking storage, so entries won’t be kept. Print or download a CSV before closing.'; statusEl.classList.add('bad');}}
 function changed(){clearTimeout(saveT); saveT=setTimeout(persist,250); refreshDerived();}
 if(!storeOK){statusEl.textContent='Your browser is blocking storage, so entries won’t be kept. Print or download a CSV before closing.'; statusEl.classList.add('bad');}
 
