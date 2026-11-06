@@ -6,6 +6,7 @@ Marketing site for **DBT Diary Card: Skills Tracker** (Lean Orbit LLC), served b
 - `printable-dbt-diary-card/` is the printable blank card page, with Letter and A4 PDFs. The PDFs and preview PNG are generated from `index.html`'s own print layout (Print blank card with default rows), so regenerate them if the default rows or print CSS change.
 - `blog/` holds the guides. `blog/index.html` is the Guides hub (the header's Guides link). Each article lives at `blog/<slug>/index.html`, uses the `.article` styles from `site.css`, and has BlogPosting, BreadcrumbList and FAQPage schema. When you add one, add a card to `blog/index.html`, a sitemap entry, and links from related pages.
 - `site.css` is a copy of `leanorbit.app/dbtdailydiary/site.css`, the shared look of the DBT pages.
+- `app-store-badge.svg` (black) and `app-store-badge-white.svg` (white, for dark-green sections) are Apple's official US "Download on the App Store" badges. Use them unmodified for every App Store link, at least 40px tall.
 - `CNAME` tells GitHub Pages which domain to serve. Don't delete it.
 
 ## Adding a page
