@@ -1,0 +1,29 @@
+# DBT Diary Card
+
+> Free DBT (Dialectical Behavior Therapy) tools from Lean Orbit LLC: a fillable online DBT diary card that saves in the browser and prints to PDF, free printable diary cards, worksheets and skills cards, and short guides to DBT skills. The same developer makes DBT Diary Card: Skills Tracker, an iPhone and iPad app.
+
+Everything on this site is free, with no sign-up. Entries in the online diary card stay in the visitor's browser; nothing is uploaded. The content is general education about DBT skills, based on Marsha Linehan's DBT Skills Training Manual (2nd ed.), and is not medical advice.
+
+## Free tools
+
+- [Free online DBT diary card](https://dbtdiarycard.online/): Fill in a weekly DBT diary card in the browser. Tracks urges, emotions and target behaviors (0–5), a 0–7 skills-use rating, daily notes, and a checklist of 30 DBT skills across all four modules. Customizable rows, saved on the device, print or save a PDF, CSV export.
+- [Printable DBT diary card](https://dbtdiarycard.online/printable-dbt-diary-card/): A blank one-page DBT diary card PDF in US Letter and A4.
+- [Printable DBT skills cards](https://dbtdiarycard.online/blog/dbt-skills-cards/): 30 pocket-size DBT skills cards (mindfulness, interpersonal effectiveness, emotion regulation, distress tolerance) plus 2 blank cards, as a free PDF.
+- [DEAR MAN worksheet](https://dbtdiarycard.online/blog/dear-man-dbt/#worksheet): A free one-page DEAR MAN worksheet PDF for planning a conversation.
+
+## Guides
+
+- [DBT diary card example](https://dbtdiarycard.online/blog/dbt-diary-card-example/): A filled-in week of a DBT diary card, explained row by row.
+- [Wise mind in DBT](https://dbtdiarycard.online/blog/wise-mind-dbt/): Emotion mind, reasonable mind and wise mind, with five practices.
+- [DEAR MAN DBT skill](https://dbtdiarycard.online/blog/dear-man-dbt/): The seven DEAR MAN steps, an example script, and DEAR MAN vs. GIVE vs. FAST.
+- [DBT skills cards](https://dbtdiarycard.online/blog/dbt-skills-cards/): All 30 skills with a one-line description and cues for each.
+- [All guides](https://dbtdiarycard.online/blog/)
+
+## The iPhone and iPad app
+
+- [DBT Diary Card: Skills Tracker on the App Store](https://apps.apple.com/app/id6759234731): A DBT diary card and skills tracker for iPhone and iPad. Daily reminders, optional Face ID lock, weekly charts, and PDF export for therapy sessions. Data stays on the device. Free download with paid full access. Requires iOS/iPadOS 17 or later.
+- [App website](https://www.leanorbit.app/dbtdailydiary/): Features, privacy policy, support, and more guides (what a DBT diary card is, how to fill one out, paper vs. digital diary cards, tracking skills between sessions, digital diary cards for therapists).
+
+## Optional
+
+- [Lean Orbit LLC apps](https://www.leanorbit.app/products.html)

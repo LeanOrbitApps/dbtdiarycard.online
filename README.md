@@ -9,6 +9,9 @@ Marketing site for **DBT Diary Card: Skills Tracker** (Lean Orbit LLC), served b
 - `blog/dbt-skills-cards/` holds the printable skills deck. `cards-source.html` (noindex) is generated from the card data and printed to `dbt-skills-cards-letter.pdf` / `dbt-skills-cards-a4.pdf` (4 pages, 8 cards of 3.75 × 2.5 in per page) plus `dbt-skills-cards.png` (page 1 preview) and `dbt-skills-cards-og.png` (1200×630). The card text also appears in the article; keep both in step if you change a card.
 - `site.css` is a copy of `leanorbit.app/dbtdailydiary/site.css`, the shared look of the DBT pages.
 - `app-store-badge.svg` (black) and `app-store-badge-white.svg` (white, for dark-green sections) are Apple's official US "Download on the App Store" badges. Use them unmodified for every App Store link, at least 40px tall.
+- `robots.txt` explicitly allows search engines and AI search crawlers (OpenAI's OAI-SearchBot, ChatGPT-User and GPTBot; Claude and Perplexity search bots). To stop AI training while staying in ChatGPT search, change `GPTBot` to `Disallow: /` and leave `OAI-SearchBot` allowed.
+- `llms.txt` is a plain-text map of the site for AI assistants. Add each new tool or guide to it.
+- `318eccfbffcda28952822fe94b1dff3e.txt` is the IndexNow key file (it proves ownership to Bing and other IndexNow engines). Don't delete it. After publishing a page, notify IndexNow with `https://api.indexnow.org/indexnow?url=<page URL>&key=318eccfbffcda28952822fe94b1dff3e`.
 - `CNAME` tells GitHub Pages which domain to serve. Don't delete it.
 
 ## Adding a page
